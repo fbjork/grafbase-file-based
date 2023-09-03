@@ -1,14 +1,14 @@
+# File-based schema authoring proposal
+
 ```
 .
-├── README.md
 └── grafbase
     ├── mutations
-    │   └── create_post.ts     # CreatePost mutation
+    │   └── create_post.ts     # createPost mutation
     ├── queries
     │   └── posts.ts           # posts query
     └── types
-        ├── comment
-        │   └── index.ts       # Comment type
+        ├── comment.ts         # Comment type
         └── post
             ├── comments.ts    # Post.comments query
             └── index.ts       # Post type

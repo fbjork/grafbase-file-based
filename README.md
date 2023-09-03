@@ -10,6 +10,6 @@
     └── types
         ├── comment.ts         # Comment type
         └── post
-            ├── comments.ts    # Post.comments query
+            ├── comments.ts    # Post.comments field
             └── index.ts       # Post type
 ```

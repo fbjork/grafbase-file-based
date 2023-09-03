@@ -2,12 +2,12 @@
 .
 ├── README.md
 └── grafbase
-    ├── comment.ts             # the Comment type
-    ├── mutation               # the Mutation type
-    │   └── create_post.ts     # the CreatePost mutation
+    ├── comment.ts             # Comment type
+    ├── mutation
+    │   └── create_post.ts     # createPost mutation
     ├── post
-    │   └── comments.ts        # the Post.comments query
-    ├── post.ts                # the Post type
+    │   └── comments.ts        # Post.comments field
+    ├── post.ts                # Post type
     └── query
-        └── posts.ts           # the Posts query
+        └── posts.ts           # posts query
 ```

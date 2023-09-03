@@ -1,4 +1,4 @@
-import { Post } from '../types/post'
+import { Post } from './grafbase/generated'
 
 type PostCreateInput = {
   title: string

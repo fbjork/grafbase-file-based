@@ -7,9 +7,8 @@
     │   └── create_post.ts     # createPost mutation
     ├── query
     │   └── posts.ts           # posts query
+    ├── schema.graphql         # SDL schema
     └── types
-        ├── comment.ts         # Comment type
         └── post
-            ├── comments.ts    # Post.comments field
-            └── index.ts       # Post type
+            └── comments.ts    # Post.comments field
 ```

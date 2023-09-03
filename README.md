@@ -3,9 +3,9 @@
 ```
 .
 └── grafbase
-    ├── mutations
+    ├── mutation
     │   └── create_post.ts     # createPost mutation
-    ├── queries
+    ├── query
     │   └── posts.ts           # posts query
     └── types
         ├── comment.ts         # Comment type

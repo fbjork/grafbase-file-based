@@ -1,13 +1,16 @@
 ```
 .
-├── README.md
-└── grafbase
-    ├── comment.ts             # Comment type
+└── schema
+    ├── comment
+    │   └── type.ts             # Comment type definition
     ├── mutation
-    │   └── create_post.ts     # createPost mutation
+    │   └── create_post
+    │       └── resolver.ts     # createPost mutation resolver
     ├── post
-    │   └── comments.ts        # Post.comments field
-    ├── post.ts                # Post type
+    │   ├── comments
+    │   │   └── resolver.ts     # Post.comments field resolver
+    │   └── type.ts             # Post type definition
     └── query
-        └── posts.ts           # posts query
+        └── posts
+            └── resolver.ts     # posts query resolver
 ```
